@@ -3,9 +3,9 @@ Application of Todo List in React JS
 </br>
 <h2>Screenshots</h2>
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://raw.githubusercontent.com/Ted2370/ToDo/main/screenshots/screenshot01.png" alt="Screenshot 1"  style="height:30%">
-  <img src="https://raw.githubusercontent.com/Ted2370/ToDo/main/screenshots/screenshot02.png" alt="Screenshot 2"  style="height:30%">
-  <img src="https://raw.githubusercontent.com/Ted2370/ToDo/main/screenshots/screenshot03.png" alt="Screenshot 3"  style="height:30%">
+  <img src="https://raw.githubusercontent.com/Ted2370/ToDo/main/screenshots/screenshot01.png" alt="Screenshot 1" height="450">
+  <img src="https://raw.githubusercontent.com/Ted2370/ToDo/main/screenshots/screenshot02.png" alt="Screenshot 2" height="450">
+  <img src="https://raw.githubusercontent.com/Ted2370/ToDo/main/screenshots/screenshot03.png" alt="Screenshot 3" height="450">
 </div>
 
 
