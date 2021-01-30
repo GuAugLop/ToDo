@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(20, 75, 255), rgb(62, 157, 235));
+  padding: 2rem 0;
+}
+
+:root {
+  font-size: 1.4rem;
+}
+
+.container {
+  max-width: 50vw;
+  margin: 0 auto;
+  min-height: 75vh;
+  background: #1b1b1b;
+
+  padding: 2rem 0;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 0.6rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+input {
+  font-size: 0.8rem;
+  width: 70%;
+  margin: 0.5rem auto;
+  color: #fff;
+  background: transparent;
+  padding: 0.5rem;
+  border: solid 2px rgb(0, 82, 150);
+
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+  background: linear-gradient(90deg, rgb(0, 82, 150), rgb(60, 167, 255));
+  border-radius: 0 0.4rem 0.4rem 0;
+  padding: calc(0.5rem + 2px);
+  width: 30%;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.complete {
+  opacity: 0.2;
+}
+
+.row-todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  margin-top: 8px;
+  width: 90%;
+
+  word-break: break-all;
+
+  transition: opacity 0.2s;
+}
+
+.delete-icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.todo-text {
+  cursor: pointer;
+}
+
+.row-todo:nth-child(4n) {
+  background: linear-gradient(90deg, rgb(0, 82, 150), rgb(60, 167, 255));
+}
+
+.row-todo:nth-child(4n + 1) {
+  background: linear-gradient(90deg, rgb(252, 169, 44), rgb(170, 102, 0));
+}
+
+.row-todo:nth-child(4n + 2) {
+  background: linear-gradient(90deg, rgb(0, 219, 99), rgb(0, 153, 69));
+}
+
+.row-todo:nth-child(4n + 3) {
+  background: linear-gradient(90deg, rgb(176, 58, 255), rgb(142, 3, 235));
+}
+
+@media (max-width: 900px) {
+  :root {
+    font-size: 1rem;
+  }
+  .container {
+    max-width: 95vw;
+  }
+}
