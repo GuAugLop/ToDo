@@ -7,11 +7,13 @@ Application of Todo List in React JS
 <img src="https://raw.githubusercontent.com/Ted2370/ToDo/main/screenshots/screenshot03.png" alt="Screenshot 3" height="400" >
 
 
-<h3>About the App</h3>
+## About the App
 
 This application was made with reactjs, in order to deepen my knowledge of this technology.
+### Functions
+<ul>
+<li>  Store user entries in the browser's LocalStorage, ensuring that data remains. </li>
+<li>  Erase the data already entered in the application. </li>
+<li>  <strong>coming soon</strong> Edit tasks already inserted in the application </li>
 
-<h5>Functions</h5>
-* Store user entries in the browser's LocalStorage, ensuring that data remains.
-* Erase the data already entered in the application.
-* <strong>coming soon</strong> Edit tasks already inserted in the application
+</ul>
