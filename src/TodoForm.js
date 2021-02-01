@@ -28,7 +28,7 @@ function TodoForm({ onSubmit }) {
         onChange={({ target }) => setTodo(target.value)}
         ref={inputRef}
       />
-      <button>Adcionar</button>
+      <button>Adicionar</button>
     </form>
   );
 }
