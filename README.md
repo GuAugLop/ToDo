@@ -9,8 +9,6 @@ Application of Todo List in React JS
 </div>
 
 <br>
-<br>
-<br>
 
 ### This App GH-Page
 https://ted2370.github.io/ToDo/
