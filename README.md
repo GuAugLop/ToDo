@@ -13,10 +13,6 @@ Application of Todo List in React JS
 ### This App GH-Page
 https://ted2370.github.io/ToDo/
 
-
-## About the App
-
-This application was made with reactjs, in order to deepen my knowledge of this technology.
 ### Functions
 <ul>
 <li>  Store user entries in the browser's LocalStorage, ensuring that data remains. </li>
