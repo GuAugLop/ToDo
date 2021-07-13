@@ -11,7 +11,7 @@ Application of Todo List in React JS
 <br>
 
 ### This App GH-Page
-https://ted2370.github.io/ToDo/
+https://guauglop.github.io/ToDo/
 
 ### Functions
 <ul>
